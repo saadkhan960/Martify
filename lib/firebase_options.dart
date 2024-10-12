@@ -49,23 +49,4 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDo0OtaDJ_BpQW1wCA2osXeywmJrbdF-f0',
-    appId: '1:358267145718:android:ca5cc95976f0c290d28bd7',
-    messagingSenderId: '358267145718',
-    projectId: 'martify-a40e0',
-    storageBucket: 'martify-a40e0.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyB0GCEFNkpDft-y8daD_Dn5uB25U2yuAO8',
-    appId: '1:358267145718:ios:a30b4e2226e15d54d28bd7',
-    messagingSenderId: '358267145718',
-    projectId: 'martify-a40e0',
-    storageBucket: 'martify-a40e0.appspot.com',
-    androidClientId: '358267145718-jg2j5mfvu4bss23il5ab6bifc7mbkr3c.apps.googleusercontent.com',
-    iosClientId: '358267145718-o9so7763ooee9qp9acgbvv3no1664m59.apps.googleusercontent.com',
-    iosBundleId: 'com.example.martify',
-  );
-
 }
